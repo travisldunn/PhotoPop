@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PhotoPop</title>
+    <meta charset='utf-8' />
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:700' />
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700' />
+    <link rel='stylesheet' href='normalize.css' />
+    <link rel='stylesheet' href='main.css' />
+  </head>
+  <body>
+    <header class='hero'>
+      <div class='container'>
+        <p class='logo'>Photo Pop</p>
+      </div>
+    </header>
+    <main class='content'>
+      <div class='container'>
+
+        <header class='subheader'>
+          <h1>My Favorite Photos</h1>
+          <p>The Best Links To Kitten Photos. <a class='js-add-link' href='#'>Add a link now!</a></p>
+          <form class='form js-form'>
+            <label class='form-label' for='form-link-input'>Add a story:</label>
+            <input class='form-input' type='text' id='form-link-input' />
+          </form>
+        </header>
+
+        <div class='modal js-modal'>
+          <div class='modal-media'>
+            <img src='kitten.png' alt='' />
+            <h3 class='modal-media-title'>Jack!</h3>
+          </div>
+          <div class='modal-content'>
+            <h3>About This Kitten</h3>
+            <p>This kitten is supper rad</p>
+
+            <ol class='kitten'>
+              <li class='kitten-item'>
+                <a class='kitten-link' href='#'>More Kittens Like This One</a>
+              </li>
+              <li class='kitten-item'>
+                <a class='kitten-link' href='#'>More Kittens Not Like This One</a>
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div class='modal-overlay js-modal-overlay'></div>
+
+        <ol class='kitten'>
+          <li class='kitten-item'>
+            <a class='kitten-link' href='#'>Orange Kittens</a>
+            <ul class='kitten-meta'>
+              <li class='kitten-meta-item'>
+                <em>My Favorite Orange Kitten:</em>
+                <a class='js-show-modal' href='#'>Jack</a>
+              </li>
+              <li class='kitten-meta-item'>
+                <a href='#'>2 comments</a>
+              </li>
+              <li class='kitten-meta-item'>
+                <a class='js-like' href='#'>Like this story!</a>
+              </li>
+            </ul>
+          </li>
+
+          <ol class='kitten'>
+            <li class='kitten-item'>
+              <a class='kitten-link' href='#'>Black Kittens</a>
+              <ul class='kitten-meta'>
+                <li class='kitten-meta-item'>
+                  <em>My Favorite Black Kitten:</em>
+                  <a href='#'>Jane</a>
+                </li>
+                <li class='kitten-meta-item'>
+                  <a href='#'>5 comments</a>
+                </li>
+                <li class='kitten-meta-item'>
+                  <a class='js-like' href='#'>Like this story!</a>
+                </li>
+              </ul>
+            </li>
+
+            <ol class='kitten'>
+              <li class='kitten-item'>
+                <a class='kitten-link' href='#'>Brown Kittens</a>
+                <ul class='kitten-meta'>
+                  <li class='kitten-meta-item'>
+                    <em>My Favorite Brown Kitten:</em>
+                    <a href='#'>Jess</a>
+                  </li>
+                  <li class='kitten-meta-item'>
+                    <a href='#'>7 comments</a>
+                  </li>
+                  <li class='kitten-meta-item'>
+                    <a class='js-like' href='#'>Like this story!</a>
+                  </li>
+                </ul>
+              </li>
+
+              <ol class='kitten'>
+                <li class='kitten-item'>
+                  <a class='kitten-link' href='#'>White Kittens</a>
+                  <ul class='kitten-meta'>
+                    <li class='kitten-meta-item'>
+                      <em>My Favorite White Kitten:</em>
+                      <a href='#'>George</a>
+                    </li>
+                    <li class='kitten-meta-item'>
+                      <a href='#'>2 comments</a>
+                    </li>
+                    <li class='kitten-meta-item'>
+                      <a class='js-like' href='#'>Like this story!</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <ol class='kitten'>
+                  <li class='kitten-item'>
+                    <a class='kitten-link' href='#'>Calico Kittens</a>
+                    <ul class='kitten-meta'>
+                      <li class='kitten-meta-item'>
+                        <em>My Favorite Calico Kitten:</em>
+                        <a href='#'>Jimmy</a>
+                      </li>
+                      <li class='kitten-meta-item'>
+                        <a href='#'>15 comments</a>
+                      </li>
+                      <li class='kitten-meta-item'>
+                        <a class='js-like' href='#'>Like this story!</a>
+                      </li>
+                    </ul>
+                  </li>
+
+
+        </ol>
+      </div>
+    </main>
+    <script src='https://code.jquery.com/jquery-2.2.1.min.js'></script>
+    <script src='app.js'></script>
+  </body>
+</html>
